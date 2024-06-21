@@ -20,30 +20,6 @@ One popular technique of recommendation/recommender systems is content-based fil
 **For Front-End**
 * Streamlit
 
-## How to get the API key?
-Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your API sidebar once your request is approved.
-
-
-## Deployment
-To Deploy the model in heroku run the comands in Terminal:
-
-```
-$ heroku login
-$ heroku git:clone -a "your app name in heroku" 
-$ cd "Path"
-$ git config core.autocrlf true
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
-$ heroku ps:scale web=1
-
-```
 
 
 
-
-
-
-* ***Dataset link*** : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
-* ***Streamlit*** : https://docs.streamlit.io/library/cheatsheet
-* ***Model*** : https://movierecommendersystem-vamsi.herokuapp.com/
